@@ -22,6 +22,15 @@ body {
   text-align: center;
 }
 
+.grid_2 {
+  width: 200px;
+  float: left;
+}
+
+.grid_10 {
+  width: 600px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
@@ -43,7 +52,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #003300;
 }
 
 table {
@@ -93,7 +102,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
+    color: green;
     text-decoration: none;
   }
 
@@ -149,14 +158,14 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
+  background-color: #D0D0D0;
 }
 
   /* standard */
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #A0A0A0;
     padding: 0 .4em;
   }
 
@@ -167,7 +176,7 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #A0A0A0;
     font-size: 85%;
     padding: 0 .2em;
   }
