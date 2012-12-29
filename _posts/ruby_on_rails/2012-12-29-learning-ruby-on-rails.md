@@ -2,8 +2,8 @@
 layout: post
 title: "Learning Ruby on Rails"
 description: ""
-category: Rails
-tags: []
+category: ruby_on_rails
+tags: [ruby]
 ---
 {% include JB/setup %}
 

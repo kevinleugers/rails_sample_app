@@ -1,11 +1,11 @@
 ---
 layout: page
-title: kevindigital84
-tagline: Supporting tagline
+title: kevinleugers.me web dev blog
+tagline: 
 ---
 {% include JB/setup %}
 
-## Blog Posts
+<h2>Blog Posts</h2>
 <br>
 
 <ul class="posts">
@@ -13,8 +13,8 @@ tagline: Supporting tagline
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## Useful Links
+<br>
+ <h2>Useful Links</h2>
 <br>
 <ul class="posts">
   <li><span>29 Dec 2012</span> &raquo; <a href="http://www.reddit.com/r/webdev">Reddit/r/webdev</a></li>

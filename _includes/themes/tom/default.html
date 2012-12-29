@@ -26,10 +26,18 @@
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
       <!-- <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a> -->
     </div>
-  
-  
-    {{ content }}
-
+    <div class="span3">
+      {% for category in site.categories %} 
+      <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+      <ul>
+      {% assign pages_list = category[1] %}  
+      {% include JB/pages_list %}
+      </ul>
+      {% endfor %}
+    </div>
+    <div class="span9">
+      {{ content }}
+    </div>
     <div class="footer">
       <div class="contact">
         <p>

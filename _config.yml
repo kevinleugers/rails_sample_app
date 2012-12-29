@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : kevindigital84
+title : KevinLeugers.me
 tagline: Blog for web development
 author :
-  name : kevindigital84
+  name : kevin leugers
   email : kevin.leugers@gmail.com
   github : kevindigital84
   twitter : kleugs513
