@@ -4,9 +4,9 @@ title: "Getting Started"
 description: ""
 category: 
 tags: [coding]
+loc: "cincinnati, oh"
 ---
 {% include JB/setup %}
-
 This is my first blog post. About 6 months ago I started becoming interested in programming again. After reading a post on Reddit about a new free online university called Udacity I decided to check it out. From the first course lesson I was hooked. I hadn't done any actual programming in probably 6-7 years so I started with the CS101 course in Python. After a few short weeks it was a great feeling having learned a new language and realizing I had that spark again for programming. 
 
 <h3>Web Development</h3>

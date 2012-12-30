@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : KevinLeugers.me
-tagline: Blog for web development
+tagline: Developing for the Interwebs
 author :
   name : kevin leugers
   email : kevin.leugers@gmail.com
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : kevinleugersme
     livefyre :
       site_id : 123
     intensedebate :

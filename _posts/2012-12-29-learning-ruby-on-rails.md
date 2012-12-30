@@ -2,8 +2,9 @@
 layout: post
 title: "Learning Ruby on Rails"
 description: ""
-category: Rails
-tags: []
+category: 
+tags: [ruby]
+loc: "cincinnati, oh"
 ---
 {% include JB/setup %}
 
