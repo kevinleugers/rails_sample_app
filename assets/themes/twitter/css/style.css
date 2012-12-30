@@ -18,6 +18,10 @@ html, body {
 #tagline-header {
   padding: 17px;
 }
+.navbar .nav > li > a {
+  color: #3C3838;
+}
+
 
 /* footer tweaks */
 .container > footer {
@@ -62,8 +66,9 @@ footer .contact {
 .content h2 {
   margin:20px 0 30px -5px;
     padding:7px 20px;
-    background:#8fbc8f;
+    background:#576F57;
     border-radius:5px;
+    color: #8fbc8f;
 }
 .content h3 {
   font-size: 22px;
@@ -85,9 +90,10 @@ footer .contact {
 .sidebar h2 {
   margin:10px 0 20px 0px;
     padding:0px 7px;
-    background:#8fbc8f;
+    background:#576F57;
     border-radius:5px;
     font-size: 18px;
+    color: #8fbc8f;
 }
 .sidebar {
   padding: 20px;
@@ -140,5 +146,3 @@ footer .contact {
 	color:#FFF;
 }
 	
-
-
