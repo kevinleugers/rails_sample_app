@@ -23,17 +23,15 @@ html, body {
 .container > footer {
   margin-top: 20px;
 }
-.container > footer p {
-  text-align: center; /* center align it with the container */
-}
-.site .footer .contact {
+/*.container > footer p {
+  text-align: center; /* center align it with the container 
+} */
+footer .contact {
       float: left;
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+      
 
 
 /* The white background content wrapper */

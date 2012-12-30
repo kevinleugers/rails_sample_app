@@ -71,25 +71,26 @@
           {% endfor %}
       </div>
     </div>
-      <footer>
-        <div class="contact pull-left">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a><br />
-          
-        </p>
-      </div>
-      <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a><br />
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a>
-        </p>
+      <footer>        <!-- footer -->
+        <div class="contact">
+          <p>
+            &copy; {{ site.author.name }} 2012<br />
+            {{ site.tagline }}<br />
+            <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
+          </p>
+        </div>
+        <div class="contact">
+          <p> 
+            Blog developed using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a><br />
+            <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
+            <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
+          </p>
+        </div>
       </footer>
 
     </div> <!-- /container -->
-
+    <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
     {% include JB/analytics %}
   </body>
 </html>
