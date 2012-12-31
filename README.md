@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
@@ -42,8 +41,8 @@ The master and gh-pages branch do not share the same ancestry. Please treat them
 
 [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 =======
-kevindigital84.github.com
+kevdigital.github.com
 =========================
 
 Blog for web development.
->>>>>>> 58d96e0e2e0ea4a297236af514de0fa2652f06be
+
