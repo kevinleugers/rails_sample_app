@@ -3,7 +3,7 @@ layout: post
 title: "Blog created with jekyll bootstrap"
 description: ""
 category: 
-tags: [coding]
+tags: [jekyll]
 loc: "cincinnati, oh"
 ---
 {% include JB/setup %}
