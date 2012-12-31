@@ -3,6 +3,9 @@ html, body {
   background-color: #7D807D;
 }
 
+.row-fluid>.span2{width:17.89361702%;}
+
+
 /* navbar tweaks */
 .navbar {
   margin-bottom: 0;
@@ -68,7 +71,7 @@ footer .contact {
     padding:7px 20px;
     background:#576F57;
     border-radius:5px;
-    color: #8fbc8f;
+    color: ##212721;
 }
 .content h3 {
   font-size: 22px;
@@ -93,7 +96,7 @@ footer .contact {
     background:#576F57;
     border-radius:5px;
     font-size: 18px;
-    color: #8fbc8f;
+    color: ##212721;
 }
 .sidebar {
   padding: 20px;
