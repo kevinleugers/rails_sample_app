@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env rake
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
@@ -6,7 +5,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 SampleApp::Application.load_tasks
-=======
 require "rubygems"
 require 'rake'
 require 'yaml'
@@ -315,4 +313,3 @@ end
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
->>>>>>> 00a0dfef175d3d6d2def8757ff7cc2114d336666
